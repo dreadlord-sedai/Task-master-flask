@@ -73,7 +73,6 @@ def edit(id: int):
         return render_template('edit.html', task=task)
 
 
-
 # Runner and Debugger
 if __name__ == '__main__':
     with app.app_context():
