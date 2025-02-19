@@ -3,7 +3,12 @@ from flask import Flask, render_template
 from flask_scss import Scss
 from flask_sqlalchemy import SQLAlchemy
 
+# App Config
 app = Flask(__name__)
+Scss(app)
+
+app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///database.db'
+db = SQLAlchemy(app)
 
 @app.route('/')
 def index():
