@@ -12,11 +12,7 @@ Live Demo: [https://fabbio33.pythonanywhere.com/](https://fabbio33.pythonanywher
   <img src="Screenshot2.png" alt="Screenshot 2">
 </details>
 
-
-&nbsp;
-
 ---
-&nbsp;
 
 ## Table of Contents
 - [To-do List (Flask)](#to-do-list-flask)
