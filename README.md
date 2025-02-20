@@ -2,8 +2,16 @@
 
 Live Demo: [https://fabbio33.pythonanywhere.com/](https://fabbio33.pythonanywhere.com/)
 
-![image](Screenshot1.png)
-![image](Screenshot2.png)
+<details>
+  <summary>Click to toggle image 1</summary>
+  <img src="Screenshot1.png" alt="Screenshot 1">
+</details>
+
+<details>
+  <summary>Click to toggle image 2</summary>
+  <img src="Screenshot2.png" alt="Screenshot 2">
+</details>
+
 
 &nbsp;
 
