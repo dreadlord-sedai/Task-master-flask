@@ -66,4 +66,16 @@ body {
 }
 .content #btn_Add:hover {
   background-color: #218838;
+}
+.content #btn_Update {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.content #btn_Update:hover {
+  background-color: #218838;
 }/*# sourceMappingURL=styles.css.map */
