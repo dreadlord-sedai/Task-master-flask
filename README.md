@@ -17,10 +17,11 @@ Live Demo: [https://fabbio33.pythonanywhere.com/](https://fabbio33.pythonanywher
   - [Contact](#contact)
 
 ## Introduction
-This is a simple to-do list web application built using Flask. It allows users to create, manage, and delete tasks efficiently. The goal of the project is to provide a minimalistic and user-friendly interface for managing daily tasks.
+This is a simple CRUD (Create, Read, Update, Delete) to-do list web application built using Flask. It allows users to create, manage, update, and delete tasks efficiently. The goal of the project is to provide a minimalistic and user-friendly interface for managing daily tasks.
 
 ## Features
 - Add new tasks
+- Update existing tasks
 - Mark tasks as completed
 - Delete tasks
 - Store tasks using SQLAlchemy database
@@ -33,12 +34,10 @@ This is a simple to-do list web application built using Flask. It allows users t
 - **JavaScript**: Enhancing user experience and interactivity.
 
 <p align="left">
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/flask/flask-original.svg" alt="Flask" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlalchemy/sqlalchemy-original.svg" alt="SQLAlchemy" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"/>
-  <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"/>
+  <img src="https://skillicons.dev/icons?i=python,flask,sass,sqlite,css,html"/>
+
+          
+
 </p>
 
 ## Installation
@@ -46,12 +45,12 @@ To get a local copy up and running, follow these steps:
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/[your-username]/[repository-name].git
+    git clone https://github.com/dreadlord-sedai/Todo-list-flask.git
     ```
 
 2. **Navigate to the project directory**:
     ```sh
-    cd [repository-name]
+    cd Todo-list-flask
     ```
 
 3. **Create a virtual environment**:
@@ -87,7 +86,7 @@ To get a local copy up and running, follow these steps:
 ## Usage
 - Open the web app.
 - Add new tasks using the input field.
-- Mark tasks as completed by clicking on them.
+- Edit existing tasks.
 - Delete tasks that are no longer needed.
 
 ## Contributing
@@ -114,6 +113,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 ## Contact
 For any questions or feedback, feel free to reach out:
 
-- **[Your Name]**: [your-email@example.com](mailto:your-email@example.com)
-- **GitHub**: [[your-github-username]](https://github.com/[your-github-username])
+- **Dahami Fabbio**: [dahamifabbio@gmail.com](mailto:dahamifabbio@gmail.com)
 
