@@ -6,10 +6,43 @@ body {
 }
 
 .content {
-  margin: 0 auto;
+  margin: 50px auto;
   padding: 20px;
   max-width: 800px;
   background-color: white;
-  border-radius: 5px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+.content h1 {
+  color: #343a40;
+}
+.content h4 {
+  color: #666;
+}
+.content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+.content table th, .content table td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+.content table th {
+  background-color: #007bff;
+  color: white;
+}
+.content table tr:hover {
+  background-color: #f9f9f9;
+}
+.content table a {
+  color: white;
+  background-color: #007bff;
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 20px;
+  transition: background-color 0.3s ease;
+  margin: 5px;
 }/*# sourceMappingURL=styles.css.map */
