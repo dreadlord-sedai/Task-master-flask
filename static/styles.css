@@ -45,4 +45,25 @@ body {
   border-radius: 20px;
   transition: background-color 0.3s ease;
   margin: 5px;
+}
+.content table a:hover {
+  background-color: #0056b3;
+}
+.content input {
+  border: solid 1px;
+  margin: 5px;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.content #btn_Add {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.content #btn_Add:hover {
+  background-color: #218838;
 }/*# sourceMappingURL=styles.css.map */

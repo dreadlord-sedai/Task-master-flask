@@ -59,6 +59,33 @@ body {
             border-radius: 20px;
             transition: background-color 0.3s ease;
             margin: 5px;
+
+            &:hover {
+                background-color: $primary-hover-color;
+            }
         }
+    }
+
+    input {
+        border: solid 1px;
+        margin: 5px;
+        padding: 8px 16px;
+        border-radius: 5px;
+
+    }
+
+    #btn_Add {
+        background-color: $succes-color;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: $succes-hover-color;
+        }
+
     }
 }
